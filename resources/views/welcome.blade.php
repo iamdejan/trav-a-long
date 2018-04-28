@@ -314,7 +314,7 @@
         @yield('menubar')
 
         <div class="container">
-            <img src="{{ url('public/images/bannernw.png') }}" width="100%" >
+            <img src="{{ url('../public/images/bannernw.png') }}" width="100%" >
             <div class="center-top"><font class="top" face="arial" color="white" size="90">Trav-A-Long</font></div>
             <div class="center-top-bot"><font class="top-bot" face="arial" color="white" size="40" >Work hard, Travel harder</font></div>
         </div>
@@ -327,15 +327,15 @@
 
         <div class="contain">
             <div class="container">
-                <img src="{{ url('public/images/map.png') }}" height="250" width="300">
+                <img src="{{ url('../public/images/map.png') }}" height="250" width="300">
                 <div class="centered"><a class="inim" href="Advice.html"><font size="5">Advice</font></a></div>
             </div>
             <div class="container">
-                <img src="{{ url('public/images/camping.png') }}" height="250" width="300">
+                <img src="{{ url('../public/images/camping.png') }}" height="250" width="300">
                 <div class="centered"><a class="inim" href="Activites.html"><font size="5">Activites</font></a></div>
             </div>
             <div class="container">
-                <img src="{{ url('public/images/col.png') }}" height="250" width="300">
+                <img src="{{ url('../public/images/col.png') }}" height="250" width="300">
                 <div class="centered"><a class="inim" href="Locations.html"><font size="5">Locations</font></a></div>
             </div>	
             <br>

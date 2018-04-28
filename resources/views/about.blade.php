@@ -239,27 +239,27 @@
 		<div class="contained">
 
 		<div class="prof" >
-		<img src="{{ url('/public/images/prof.jpg') }}" height="200" width="200">
+		<img src="{{ url('../public/images/prof.jpg') }}" height="200" width="200">
 		<p>Avner Kristofer</p>
 		</div>
 
 		<div class="prof" >
-		<img src="{{ url('/public/images/dejprof.jpg') }}" height="200" width="200">
+		<img src="{{ url('../public/images/dejprof.jpg') }}" height="200" width="200">
 		<p>Giovanni Dejan</p>
 		</div>
 		<div class="prof" >
-		<img src="{{ url('/public/images/gregprof.png') }}" height="200" width="200">
+		<img src="{{ url('../public/images/gregprof.png') }}" height="200" width="200">
 		<p>Gregory Kevin</p>
 		</div>
 
 		<div class="prof" >
-		<img src="{{ url('/public/images/prof.jpg') }}" height="200" width="200">
+		<img src="{{ url('../public/images/prof.jpg') }}" height="200" width="200">
 		<p>Nathaniel Putra</p>
 		</div>
 		</div>
 		<div class="contained">
 		<div class="prof" >
-		<img src="{{ url('/public/images/auprrof.png') }}" height="200" width="200">
+		<img src="{{ url('../public/images/auprrof.png') }}" height="200" width="200">
 		<p>Laudwika Ambardi</p>
 		</div>
 		</div>

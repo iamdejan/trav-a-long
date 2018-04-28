@@ -235,7 +235,7 @@ form {
 <body>
 <div class="pageContentWrapper">
 	@include('menubar')
-        @yield('menubar')
+    @yield('menubar')
 <p class="tit">
 <font class="tit" face="arial" size="10"><center>CONTACT</center></font>
 </p>
