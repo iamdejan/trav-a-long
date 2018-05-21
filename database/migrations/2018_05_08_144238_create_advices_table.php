@@ -15,14 +15,11 @@ class CreateAdvicesTable extends Migration
     {
         Schema::create('advices', function (Blueprint $table) {
             $table->string('adviceID')->primary();
-			$table->string('cityID');
 			$table->integer('days');
+            $table->integer('budget');
+            $table->longText('adviceDesc');
 			$table->string('typeID');
 			$table->string('activityID');
-			
-			$table->foreign('cityID')->references('cityID')->on('cities')
-									 ->onDelete('cascade')
-									 ->onUpdate('cascade');
 									 
 			$table->foreign('typeID')->references('typeID')->on('transport_types')
 									 ->onDelete('cascade')

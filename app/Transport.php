@@ -10,4 +10,6 @@ class Transport extends Model {
     protected $primaryKey = "typeID";
     public $incrementing = false;
     protected $keyType = "string";
+	public $timestamps = false;
+    
 }

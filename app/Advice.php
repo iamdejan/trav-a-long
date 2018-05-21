@@ -10,4 +10,6 @@ class Advice extends Model {
     protected $primaryKey = "adviceID";
    	public $incrementing = false;
     protected $keyType = "string";
+	public $timestamps = false;
+    
 }

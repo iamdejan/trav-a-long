@@ -11,6 +11,28 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        try {
+            $this->call(ProvinceSeeder::class);
+        } catch (Exception $e) {
+            echo $e->getMessage(). "\n";
+        }
+
+        try {
+            $this->call(TransportSeeder::class);
+        } catch (Exception $e) {
+            echo $e->getMessage(). "\n";
+        }
+
+        try {
+            $this->call(ActivitySeeder::class);
+        } catch (Exception $e) {
+            echo $e->getMessage(). "\n";
+        }
+        
+        try {
+            $this->call(AdviceSeeder::class);
+        } catch (Exception $e) {
+            echo $e->getMessage(). "\n";
+        }
     }
 }

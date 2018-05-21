@@ -10,4 +10,6 @@ class Activity extends Model {
     protected $primaryKey = "activityID";
     public $incrementing = false;
     protected $keyType = "string";
+	public $timestamps = false;
+    
 }
